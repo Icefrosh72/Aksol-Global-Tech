@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Main css -->
+  <link rel="stylesheet" href="Assets/css/index.css">
+  <!-- Fontawesome css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="Assets/css/all.min.css">
+  <!-- Google fonts cdn -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Google fonts cdn -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap">
+  <!-- -------------------------Bootstrap------------------- -->
+  <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+  <!-- ------------------Animate css---------------------------- -->
+  <link rel="stylesheet" href="Assets/css/animate.min.css">
+  <link rel="stylesheet" href="https:cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!-- -----------------Responsive mobile---------------------- -->
+  <link rel="stylesheet" href="Assets/css/responsive.css">
+  <!-- Site icon -->
+  <link rel="shortcut icon" href="Assets/img/Aksol2.png" type="image/x-icon">
+  <title>Contact</title>
+</head>
+
+<body>
+  <!-- ===================Main Code================== -->
+  <header class="header navbar-area">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-12">
+          <div class="nav-inner">
+            <nav class="navbar navbar-expand-lg">
+              <a href="" class="img-logo navbar-brand">
+                <img class="nav-logo" src="Assets/img/Free_Sample_By_Wix-removebg-preview.png">
+              </a>
+              <div class="collapse navbar-collapse sub-menu-bar">
+                <ul class="nav-menu  navbar-nav ms-auto">
+                  <li class="nav-items ">
+                    <a href="index.html" class="nav-link dd-menu collapsed">Home</a>
+                  </li>
+
+                  
+
+                  <li class="nav-items">
+                    <a href="Teams.html" class="nav-link">Team</a>
+                  </li>
+
+                  <li class="nav-items">
+                    <a href="About.html" class="nav-link">About</a>
+                  </li>
+
+                  <li class="nav-items">
+                    <a href="Project.html" class="nav-link">Project</a>
+                  </li>
+
+                  <li class="nav-items">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                  </li>
+                  
+                </ul>
+              </div>
+
+
+              <button class="navbar-toggler mobile-menu-btn " onclick="sidenav()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </button>
+
+
+              <button class="btn-port" onclick="openForm()">
+                Sign-Up
+              </button>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="contact-main">
+    <div class="sidebar sidenav" id="side">
+      <div class="icon-c" onclick="sidenavclose()"><i class="fas fa-caret-left icon"></i></div>
+      <ul class=" side-nav">
+        <li class="nav-items">
+          <a href="index.html" class="side-link">Home</a>
+        </li>
+
+        <li class="nav-items">
+          <a href="project.html" class="side-link">Project</a>
+        </li>
+
+        <li class="nav-items">
+          <a href="team.html" class="side-link">Team</a>
+        </li>
+
+        <li class="nav-items">
+          <a href="about.html" class="side-link">About</a>
+        </li>
+
+        <li class="nav-items">
+          <a href="service.html" class="side-link">Services</a>
+        </li>
+
+        <li class="nav-items">
+          <a href="#" class="nav-link" onclick="openForm()">Portal</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="site-content" id="content">
+      <div class="page-header flex-middle" style="background-image: url(./Assets/img/bg-pheader.jpg); height: 50vh;">
+        <div class="container">
+          <div class="inner flex-middle">
+            <h1 class="page-title">
+              Contacts
+            </h1>
+
+            <ul id="breadcrumbs" class="breadcrumbs none-style">
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="#">Contact</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-main">
+      <div class="container">
+
+        <div class="col-12">
+          <div class="cont-title">
+            <h2 class="text-center title-page">Contact Us</h2>
+          </div>
+        </div>
+
+        <div class="row-inhert">
+          <div class="header-contact">
+            <div class="row">
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="item d-flex">
+                  <div class="item-left">
+                    <div class="icon">
+                      <i class="fas fa-message"></i>
+                    </div>
+                  </div>
+                  <div class="item-right d-flex">
+                    <div class="title">Email:</div>
+                    <div class="contact-content">
+                      <a href="mailto:seidtesleem06@gmail.com">Seidutesleem06@gmail.com</a>
+                      <br>
+                      <a href="mailto:seiduadaeiza06@gmail.com">Seiduadaeiza06@gmail.com</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="item d-flex">
+                  <div class="item-left">
+                    <div class="icon">
+                      <i class="fas fa-house-user"></i>
+                    </div>
+                  </div>
+                  <div class="item-right d-flex">
+                    <div class="title">Address:</div>
+                    <div class="contact-content">
+                      Alichiba Rd Sango Ota
+                      <br>Ogun State
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="item d-flex justify-content-end  last">
+                  <div class="item-left">
+                    <div class="icon">
+                      <i class="fas fa-phone"></i>
+                    </div>
+                  </div>
+                  <div class="item-right d-flex">
+                    <div class="title">Hotline:</div>
+                    <div class="contact-content">
+                      +2348161181020
+                      <br>+23481611810
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- input contact details -->
+        <div class="input-contact">
+          <p class="icon text-center">
+            <a href="#">
+              <img src="Assets/img/contact_mess.png">
+            </a>
+          </p>
+          <div class="d-flex justify-content-center">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              
+              <div class="contact-form">
+                <form action="action.php" method="post">
+                  <div class="form-fields">
+                    
+                    <div class="form-group row">
+                      <div class="col-md-6">
+                        <input class="form-control" type="text" name="name" placeholder="Your name">
+                      </div>
+                      <div class="col-md-6 margin-bottom-mobie">
+                        <input class="form-control" name="email" type="email" value="" placeholder="Your email">
+                      </div>
+                    </div>
+                    
+                    <div class="form-group row">
+                      <div class="col-md-12 margin-bottom-mobie">
+                        <input class="form-control" name="subject" type="text" value="" placeholder="Subject">
+                      </div>
+                    </div>
+                    
+                    <div class="form-group row">
+                      <div class="col-md-12">
+                        <textarea class="form-control" name="message" placeholder="Message" rows="8"></textarea>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="submit-btn">
+                    <button class="btn" type="submit" name="submit">
+                      <img class="img-fl" src="Assets/img/contact_email.png" alt="img">Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End of row inhert-->
+    </div>
+    </section>
+
+    <div class="b-example-divider"></div>
+    <div class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2022 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook"></use>
+                </svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <a href="#" class="scroll-top" style="display: flex;">
+      <i class="fa-thin fa-arrow-down-up-across-line"></i>
+    </a>
+  </main>
+
+</body>
+
+</html>

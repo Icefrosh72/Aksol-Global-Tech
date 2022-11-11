@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Main css -->
+    <link rel="stylesheet" href="Assets/css/index.css">
+    <!-- Fontawesome css -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="Assets/css/all.min.css">
+     <!-- Google fonts cdn -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <!-- Google fonts cdn -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap">
+     <!-- -------------------------Bootstrap------------------- -->
+     <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+     <!-- ------------------Animate css---------------------------- -->
+     <link rel="stylesheet" href="Assets/css/animate.min.css">
+     <link rel="stylesheet" href="https:cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+     <!-- -----------------Responsive mobile---------------------- -->
+     <link rel="stylesheet" href="Assets/css/responsive.css">
+     <!-- Site icon -->
+     <link rel="shortcut icon" href="Assets/img/Aksol2.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+     <!-- ===================Main Code================== -->
+    <header class="header navbar-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="nav-inner">
+                        <nav class="navbar navbar-expand-lg">
+                            <a href="" class="img-logo navbar-brand">
+                                <img class="nav-logo" src="Assets/img/Free_Sample_By_Wix-removebg-preview.png">
+                            </a>
+                            <div class="collapse navbar-collapse sub-menu-bar">
+                                <ul class="nav-menu  navbar-nav ms-auto">
+                                    <li class="nav-items ">
+                                        <a href="index.html" class="nav-link dd-menu collapsed">Home</a>
+                                    </li>
+                                    
+                                    <li class="nav-items">
+                                        <a href="service.html" class="nav-link">Services</a>
+                                    </li>
+                                    
+                                    <li class="nav-items">
+                                        <a href="team.html" class="nav-link">Team</a>
+                                    </li>
+                                    
+                                    <li class="nav-items">
+                                        <a href="About.html" class="nav-link">About</a>
+                                    </li>
+                                    
+                                    <li class="nav-items">
+                                        <a href="Project.html" class="nav-link">Project</a>
+                                    </li>
+                                    
+                                    <li class="nav-items">
+                                        <a href="contact.php" class="nav-link">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                
+                            <button class="navbar-toggler mobile-menu-btn " onclick="sidenav()" >
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </button>
+                
+                
+                            <button class="btn-port" onclick="openForm()">
+                                Sign-Up
+                            </button>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="sidebar sidenav" id="side">
+            <div class="icon-c" onclick="sidenavclose()"><i class="fas fa-caret-left icon"></i></div>
+            <ul class=" side-nav">
+                <li class="nav-items">
+                    <a href="#" class="side-link">Home</a>
+                </li>
+                
+                <li class="nav-items">
+                    <a href="service.html" class="side-link">Services</a>
+                </li>
+                
+                <li class="nav-items">
+                    <a href="team.html" class="side-link">Team</a>
+                </li>
+                
+                <li class="nav-items">
+                    <a href="about.html" class="side-link">About</a>
+                </li>
+                
+                <li class="nav-items">
+                    <a href="Project.html" class="side-link">Project</a>
+                </li>
+                
+                <li class="nav-items">
+                    <a href="contact.php" class="side-link">Contact</a>
+                </li>
+            
+                <li class="nav-items">
+                    <a href="#" class="nav-link" onclick="openForm()">Portal</a>
+                </li>
+            </ul>
+        </div>
+    
+        <section class="hero-field">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="hero-content wow fadeInRight">
+                            <h1>Hello You are welcome to Aksol Global</h1>
+                            <p class="ak-hd">Our main aim is to fulfil the demand of the customers by making them satisfied with the best content ever.</p>
+                            <br>
+                            <form action="" method="post">
+                                <label id="email" for="email">Email</label>
+                                <input type="email" name="email" placeholder="Your email">
+                                <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                            </form>
+                            <p class="acc">Click Below to get started <i class=""></i></p>
+                            <div class="button">
+                                <button type="button" class="btn"><a href="javascript:void(0)">Register</a></button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="hero-image wow fadeInLeft" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInRight;">
+                            <img src="Assets/img/frame-21.svg" alt="" class="img-svg" style="height: 60vh;">
+                        </div>
+                    </div>
+                </div>
+                <p>Join the top 5 companies using Aksol  platform</p>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="feature-head">
+                            <h3 class="wow">Cool Services To Make You <br> Go From Zero To Expert</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur suscipit illo aliquid perferendis. Cum repudiandae facilis, ullam repellendus ipsum aut molestias voluptatibus eius repellat cupiditate facere magni, eligendi illum debitis!</p>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- Grab some list -->
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <!-- services below -->
+                            <div class="single-feature active">
+                                <h3><i class="fas fa-chart-pie">Data Analytics</i></h3>
+                                <p>Learn a fast learning data world solving problem and able to track and analyze all relevant information</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <!-- services below -->
+                            <div class="single-feature">
+                                <h3><i class="fas fa-code">Web Development</i></h3>
+                                <p>Learn a good way of making responsive web pages</p>
+                            </div>
+                        </div>
+                        
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <!-- services below -->
+                            <div class="single-feature">
+                                <img src="assets/img/frame-37.svg" class="img-svg1">
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <!-- services below -->
+                            <div class="single-feature">
+                                <h3><i class="fas fa-code">Graphic Designer</i></h3>
+                                <p>Making of dope designs to meet the taste of the client</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <!-- services below -->
+                            <div class="single-feature">
+                                <h3><i class="fas fa-code">Microsoft office</i></h3>
+                                <p>Learning of Ms-word, Excel, Powerpoint, Publisher.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <!-- services below -->
+                            <div class="single-feature">
+                                <img src="assets/img/frame-37.svg" class="img-svg1">
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+
+        <section class="client-detail">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="feature-head rowy">
+                            <h3 class="wow">Cool Services To Make You <br> Go From Zero To Expert</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur suscipit illo aliquid perferendis. Cum repudiandae facilis, ullam repellendus ipsum aut molestias voluptatibus eius repellat cupiditate facere magni, eligendi illum debitis!</p>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- Grab some list -->
+                <div class="row justify-content-between">
+                    <div class="col-lg-4 col-md-6 col-12">
+                            <!-- services below -->
+                        <div class="single-client">
+                            <img src="Assets/img/girl.svg" class="img-svg1">
+                            <h3><i class="fas fa-chart-pie"></i>Data Analytics</h3>
+                            <p>Learn a fast learning data world solving problem and able to track and analyze all relevant information</p>
+                        </div>
+                    </div>
+                        
+                    <div class="col-lg-4 col-md-6 col-12">
+                            <!-- services below -->
+                        <div class="single-client">
+                            <img src="Assets/img/group-71.svg" class="img-svg1">
+                            <h3><i class="fas fa-code"></i>Web Development</h3>
+                            <p>Learn a good way of making responsive web pages</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="choose">
+            <div class="row justify-content-start">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="aksol-choose-title">
+                        <h3 class="why">Why choose us</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="info-one">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="info-img">
+                            <img src="Assets/img/site-stats-concept-illustration_114360-1434.webp" class="yng1">
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="info-text">
+                            <h2>1,25,000 Customers Using The Application!</h2>
+                            <p>Big, small, online, offline, local or other. Size doesn't matter. We work on diverse
+                                projects for top brands as well as for cool startups. Check out some of our favorites.
+                            </p>
+                            <div class="button">
+                                <a href="javascript:void(0)" class="btn">Download Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-one waves2">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="info-text">
+                            <h2>Improve and Innovate with the Tech Trends</h2>
+                            <p>
+                                Our team can assist you in transforming your business through the latest tech capabilities to stay ahead of the curve.
+                            </p>  
+                            <ul>
+                                <li><i class="fas fa-check"></i>Application Development</li>
+                                <li><i class="fas fa-check"></i>Data Quality Management</li>
+                                <li><i class="fas fa-check"></i>Web development</li>
+                                <li><i class="fas fa-check"></i>UI UX</li>
+                                <li><i class="fas fa-check"></i>Product Management</li>
+                                <li><i class="fas fa-check"></i>Al Machine and Deep Learning</li>
+                            </ul>
+                        </div>
+                      
+                        <div class="button">
+                            <a href="javascript:void(0)" class="btn">Get Started</a>
+                        </div> 
+
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="svg-img">
+                            <img src="Assets/img/upload-cloud.svg" style="height: 70vh;" class="yng2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="info-one waves2">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="info-text">
+                            <h2>Seamless Loyalty</h2>
+                            <p>Collaborate over projects with your team and clients optimised for mobile and tablet
+                            don't let slow page speeds drive our innovative platform empowers anyone to convert clicks
+                            you'll publish your first landing page in minutes.
+                            </p>
+                        </div>
+                        <div class="button">
+                            <a href="javascript:void(0)" class="btn">Get Started</a>
+                        </div> 
+
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="info-img">
+                            <img src="Assets/img/Young.jpg" class="yng">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="info-one waves2">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="info-img">
+                            <img src="Assets/img/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illust.webp"  class="yng3">
+                        </div>
+                        <div class="button">
+                            <a href="javascript:void(0)" class="btn">Get Started</a>
+                        </div> 
+
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="info-text compre">
+                            <h2>Comprehensive Protection for You</h2>
+                            <p>
+                                Our team can assist you in transforming your business through the latest tech capabilities to stay ahead of the curve.
+                            </p> 
+                            <ul>
+                                <li>
+                                    Home Protection
+                                    <i class="fas fa-arrow-right"></i>
+                                </li>
+                                
+                                <li>
+                                    Corporate Security
+                                    <i class="fas fa-arrow-right"></i>
+                                </li>
+                                
+                                <li>
+                                    Solution for Partners
+                                    <i class="fas fa-arrow-right"></i>
+                                </li>
+                                
+                                <li>
+                                    Build Privacy-First
+                                    <i class="fas fa-arrow-right"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="security">
+            <div class="security-main">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="feature-head">
+                            <h3 class="wow">All Kinds Of Security</h3>
+                            <p class="secure">Our most advanced and reliable protection against viruses, ransomware, malware, the latest threats, home Wi-Fi vulnerabilities and more.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="security-num">
+                            <h3>2K+</h3>
+                            <p>Cybersecurity Projects</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="security-num">
+                            <h3>2K+</h3>
+                            <p>Cybersecurity Projects</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="security-num">
+                            <h3>2K+</h3>
+                            <p>Cybersecurity Projects</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="security-num">
+                            <h3>2K+</h3>
+                            <p>Cybersecurity Projects</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="security-num">
+                            <h3>2K+</h3>
+                            <p>Cybersecurity Projects</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="security-num">
+                            <h3>2K+</h3>
+                            <p>Cybersecurity Projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="info-one security-wave">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="info-img">
+                            <img src="Assets/img/folder-man.svg">
+                        </div>
+                         
+
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-12 col-12">
+                        <div class="info-text">
+                            <h2>Keeping People Safe Around the World</h2>
+                            <p>Using real-time data from over 435 million users, we prevent over 66 million threats every day.</p>
+                            <div class="button">
+                            <a href="javascript:void(0)" class="btn">Get Demo</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="b-example-divider"></div>
+        <div class="container">
+            <footer class="py-5">
+              <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-md-5 offset-md-1 mb-3">
+                  <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                      <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+          
+              <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2022 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                </ul>
+              </div>
+            </footer>
+          </div>
+          <a href="#" class="scroll-top" style="display: flex;">
+            <i class="fa-thin fa-arrow-down-up-across-line"></i>
+        </a>
+    </main>
+     <script src="Assets/js/web.js"></script>
+     <script src="Assets/js/bootstrap.min.js"></script>
+     <script>
+        function sidenav() {
+            document.getElementById('side').style.display = "block";
+            document.getElementById('side').style.transition = "all 3s";
+        }
+
+        function sidenavclose() {
+            document.getElementById('side').style.display = "none";
+        }
+     </script>
+</body>
+</html>
